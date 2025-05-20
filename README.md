@@ -2,7 +2,7 @@
 
 ### Folder structure (not mentioned files are out of scope)
 
-
+<pre> ```text
 best-property/
 ├── .venv/                     # Python virtual environment
 ├── api/                       # API implementation
@@ -33,7 +33,7 @@ best-property/
 │
 ├── requirements.txt            # Python package dependencies
 └── README.md                  # Project documentation
-
+</pre>
 
 ### Use case flow
 Step 1. Call Add Properties post api (/api/properties), notice the followings:
