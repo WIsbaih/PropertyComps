@@ -1,10 +1,8 @@
 from fastapi import FastAPI
-from api.endpoints import add, recommend, train, appraisal
+from api.endpoints import add, recommend, train, appraisal, property
 
 app = FastAPI()
 
 # Register all routers
-app.include_router(add.router)
-app.include_router(recommend.router)
-app.include_router(train.router)
-app.include_router(appraisal.router)
+app.include_router(property.router, prefix="/api", tags=["properties"])
+app.include_router(appraisal.router, prefix="/api", tags=["appraisals"])
