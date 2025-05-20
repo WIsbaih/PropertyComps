@@ -45,5 +45,5 @@ Step 2. Call Post Appraisal api (/api/appraisals), check the followings:
 Step 3. Call Get Appraisal api (/api/appraisals/{appraisal_id}), check the followings:
         - The reponse contains the appraisal data including the selected 3 comps
 
-# NOTE: you can find sample data in the folder ./data_sample 
+# NOTE: you can find sample data in the folder data_sample/ 
 
