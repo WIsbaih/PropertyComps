@@ -1,36 +1,36 @@
 # PropertyComps
 
 ### Folder structure (not mentioned files are out of scope)
-best-property/ /n
-├── .venv/                     # Python virtual environment
-├── api/                       # API implementation
-│   ├── main.py               # FastAPI application entry point
-│   ├── endpoints/            # API route definitions
-│   │   ├── appraisal.py     # Property appraisal endpoint
-│   │   └── property.py      # Property management endpoints
-│   │
-│   ├── services/            # Business logic services
-│   │   ├── appraisal_service.py      # appraisal logic (including comps selection)
-│   │   ├── training_service.py       # ML model training and updates
-│   │   ├── property_service.py       # Property CRUD operations
-│   │
-│   └── utils/               # API-specific utilities
-│
-├── data/                     # Data storage directory
-│
-├── data-sample/              # Data samples to used when testing the APIs
-│
-├── models/                   # Machine learning models
-│   ├── knn_model.joblib     # K-Nearest Neighbors model for property matching
-│   ├── cluster_model.joblib # Clustering model for property grouping
-│   └── vectorizer.joblib    # Text vectorizer for property descriptions
-│
-├── notebooks/               # Jupyter notebooks for analysis and development (for testing)
-│
-├── utils/                   # General utility functions
-│
-├── requirements.txt            # Python package dependencies
-└── README.md                  # Project documentation
+#best-property/
+#├── .venv/                     # Python virtual environment
+#├── api/                       # API implementation
+#│   ├── main.py               # FastAPI application entry point
+#│   ├── endpoints/            # API route definitions
+#│   │   ├── appraisal.py     # Property appraisal endpoint
+#│   │   └── property.py      # Property management endpoints
+#│   │
+#│   ├── services/            # Business logic services
+#│   │   ├── appraisal_service.py      # appraisal logic (including comps selection)
+#│   │   ├── training_service.py       # ML model training and updates
+#│   │   ├── property_service.py       # Property CRUD operations
+#│   │
+#│   └── utils/               # API-specific utilities
+#│
+#├── data/                     # Data storage directory
+#│
+#├── data-sample/              # Data samples to used when testing the APIs
+#│
+#├── models/                   # Machine learning models
+#│   ├── knn_model.joblib     # K-Nearest Neighbors model for property matching
+#│   ├── cluster_model.joblib # Clustering model for property grouping
+#│   └── vectorizer.joblib    # Text vectorizer for property descriptions
+#│
+#├── notebooks/               # Jupyter notebooks for analysis and development (for testing)
+#│
+#├── utils/                   # General utility functions
+#│
+#├── requirements.txt            # Python package dependencies
+#└── README.md                  # Project documentation
 
 ### Use case flow
 Step 1. Call Add Properties post api (/api/properties), notice the followings:
