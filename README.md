@@ -1,6 +1,8 @@
 # PropertyComps
 
 ### Folder structure (not mentioned files are out of scope)
+
+
 best-property/
 ├── .venv/                     # Python virtual environment
 ├── api/                       # API implementation
@@ -31,6 +33,7 @@ best-property/
 │
 ├── requirements.txt            # Python package dependencies
 └── README.md                  # Project documentation
+
 
 ### Use case flow
 Step 1. Call Add Properties post api (/api/properties), notice the followings:
