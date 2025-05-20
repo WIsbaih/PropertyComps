@@ -2,7 +2,7 @@
 
 ### Folder structure (not mentioned files are out of scope)
 
-<pre> ```text
+<pre>
 best-property/
 ├── .venv/                     # Python virtual environment
 ├── api/                       # API implementation
